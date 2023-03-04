@@ -3,6 +3,7 @@ binoutputdir = "%{cfg.buildcfg}-%{cfg.system}-%{cfg.architecture}"
 project "ImGui"
 	kind "StaticLib"
 	language "C++"
+	location "ImGui-VS"
 
    targetdir ("Binaries/%{prj.name}/Bin-" .. binoutputdir)
    objdir ("Binaries/%{prj.name}/Bin-Int-" .. binoutputdir)

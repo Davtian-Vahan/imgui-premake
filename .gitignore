@@ -14,6 +14,7 @@ examples/*/Release/*
 examples/*/x64/*
 
 ## Visual Studio artifacts
+ImGui-VS
 .vs
 ipch
 *.opensdf
